@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegisterFunc">
+   <children>
+      <Pane layoutX="-14.0" prefHeight="452.0" prefWidth="537.0">
+         <children>
+            <Label layoutX="63.0" layoutY="244.0" prefHeight="71.0" prefWidth="211.0" text="Retype your Password：" textFill="#68968b">
+               <font>
+                  <Font name="FZYaoTi" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="93.0" layoutY="318.0" prefHeight="46.0" prefWidth="181.0" text="Password hintwords：" textFill="#68968b">
+               <font>
+                  <Font name="FZYaoTi" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtPWHint" layoutX="274.0" layoutY="322.0" prefHeight="39.0" prefWidth="200.0" />
+            <Label layoutX="138.0" layoutY="143.0" prefHeight="46.0" prefWidth="136.0" text="UserName：" textFill="#68968b">
+               <font>
+                  <Font name="FZYaoTi" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="138.0" layoutY="200.0" prefHeight="46.0" prefWidth="136.0" text="Password：" textFill="#68968b">
+               <font>
+                  <Font name="FZYaoTi" size="26.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtUserName_R" layoutX="274.0" layoutY="146.0" prefHeight="39.0" prefWidth="200.0" />
+            <Button fx:id="btnRegister_R" layoutX="231.0" layoutY="392.0" mnemonicParsing="false" onAction="#register" prefHeight="39.0" prefWidth="96.0" style="-fx-background-color: OliveDrab;" text="Register" textFill="#daffe5">
+               <font>
+                  <Font name="FZYaoTi" size="19.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutX="14.0" prefHeight="110.0" prefWidth="524.0" style="-fx-background-color: YellowGreen;">
+               <children>
+                  <Label layoutX="205.0" layoutY="19.0" lineSpacing="10.0" text="2048" textFill="#f0fff3" textOverrun="CLIP">
+                     <font>
+                        <Font name="FZYaoTi" size="57.0" />
+                     </font>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Label>
+               </children>
+               <effect>
+                  <Blend mode="ADD" opacity="0.16" />
+               </effect>
+            </AnchorPane>
+            <PasswordField fx:id="pwField_R" layoutX="274.0" layoutY="207.0" prefHeight="39.0" prefWidth="200.0" />
+            <PasswordField fx:id="rePWField" layoutX="274.0" layoutY="260.0" prefHeight="39.0" prefWidth="200.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

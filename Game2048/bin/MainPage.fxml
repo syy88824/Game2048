@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#brickMove" prefHeight="632.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainFunc">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="186.79999389648438" minHeight="3.599996948242193" prefHeight="145.00001220703126" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="503.99999389648445" minHeight="10.0" prefHeight="486.39998779296883" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="243.0" layoutY="54.0" lineSpacing="10.0" text="2048" textFill="#93b1b7" textOverrun="CLIP">
+               <font>
+                  <Font name="FZYaoTi" size="57.0" />
+               </font>
+               <effect>
+                  <Blend />
+               </effect>
+            </Label>
+            <Button fx:id="btnLoginPage" alignment="TOP_CENTER" layoutX="53.0" layoutY="16.0" mnemonicParsing="false" onAction="#loginPage" prefHeight="33.0" prefWidth="82.0" text="Login">
+               <font>
+                  <Font name="FZYaoTi" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnRank" alignment="TOP_CENTER" layoutX="53.0" layoutY="79.0" mnemonicParsing="false" onAction="#rank" prefHeight="33.0" prefWidth="82.0" text="Rank">
+               <font>
+                  <Font name="FZYaoTi" size="20.0" />
+               </font>
+            </Button>
+            <VBox layoutX="402.0" layoutY="19.0" prefHeight="107.0" prefWidth="184.0" AnchorPane.topAnchor="19.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="49.0" prefWidth="147.0" text="Score：" textAlignment="CENTER" textFill="#7ea1a0">
+                     <font>
+                        <Font name="FZYaoTi" size="31.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+                  <Label fx:id="lblScore" alignment="CENTER" prefHeight="50.0" prefWidth="183.0" text="0" textAlignment="CENTER" textFill="#8ba6a4">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <Pane prefHeight="443.0" prefWidth="553.0" GridPane.rowIndex="1">
+         <children>
+            <GridPane fx:id="brickPane" layoutX="56.0" layoutY="21.0" prefHeight="429.0" prefWidth="489.0" style="-fx-border-color: black; -fx-grid-lines-visible: true;">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </children>
+      </Pane>
+   </children>
+</GridPane>

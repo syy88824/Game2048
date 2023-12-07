@@ -1,0 +1,159 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.brick2{ 
+    -fx-alignment:center; 
+    -fx-font-size: 65px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 104.5;
+    -fx-pref-width: 119.5; 
+    -fx-background-color:rgb(241, 255, 222);
+    -fx-text-fill: #000000;
+    -fx-font-size:"Nirmala UI Semilight" ;
+}
+.brick4{ 
+    -fx-alignment:center; 
+    -fx-font-size: 65px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 105.0;
+    -fx-pref-width: 119.5;   
+    -fx-background-color:rgb(220, 241, 195);
+    -fx-text-fill: #000000;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.brick8{ 
+   -fx-alignment:center; 
+    -fx-font-size: 65px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 104.0;
+    -fx-pref-width: 119.5; 
+    -fx-background-color:rgb(212, 241, 178);
+    -fx-text-fill: #000000;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.brick16{ 
+   -fx-alignment:center; 
+    -fx-font-size: 65px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 105.0;
+    -fx-pref-width: 119.5;  
+    -fx-background-color:rgb(205, 244, 160);
+    -fx-text-fill: #000000;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.brick32{ 
+   -fx-alignment:center; 
+    -fx-font-size: 65px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 105.0;
+    -fx-pref-width: 119.5; 
+    -fx-background-color:rgb(194, 230, 146);
+    -fx-text-fill: #000000;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.brick64{ 
+   -fx-alignment:center; 
+    -fx-font-size: 65px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 105.0;
+    -fx-pref-width: 119.5;  
+    -fx-background-color:rgb(182, 219, 136);
+    -fx-text-fill: #000000;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.brick128{ 
+   -fx-alignment:center; 
+    -fx-font-size: 65px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 105.0;
+    -fx-pref-width: 119.5;   
+    -fx-background-color:rgb(159, 214, 126);
+    -fx-text-fill: #dbdfe5;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.brick256{ 
+   -fx-alignment:center; 
+    -fx-font-size: 65px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 105.0;
+    -fx-pref-width: 119.5;   
+    -fx-background-color:rgb(124, 185, 90);
+    -fx-text-fill: #dbdfe5;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.brick512{ 
+   -fx-alignment:center; 
+    -fx-font-size: 65px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 105.0;
+    -fx-pref-width: 119.5;   
+    -fx-background-color:rgb(127, 180, 97);
+    -fx-text-fill: #dbdfe5;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.brick1024{ 
+   -fx-alignment:center; 
+    -fx-font-size: 60px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 105.0;
+    -fx-pref-width: 119.5;   
+    -fx-background-color:rgb(111, 153, 87);
+    -fx-text-fill: #dbdfe5;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.brick2048{ 
+   -fx-alignment:center; 
+    -fx-font-size: 60px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 105.0;
+    -fx-pref-width: 119.5;   
+    -fx-background-color:rgb(87, 123, 67);
+    -fx-text-fill: #dbdfe5;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.brick4096{ 
+   -fx-alignment:center; 
+    -fx-font-size: 65px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 105.0;
+    -fx-pref-width: 119.5;   
+    -fx-background-color:rgb(73, 96, 59);
+    -fx-text-fill: #dbdfe5;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.brickEnd{ 
+   -fx-alignment:center; 
+    -fx-font-size: 55px;
+    -fx-opacity:0.7;
+    -fx-pref-height: 105.0;
+    -fx-pref-width: 119.5;   
+    -fx-background-color:#E0E0E0;
+    -fx-text-fill: #808080;
+    -fx-font:"Nirmala UI Semilight" ;
+}
+.infoGrey{
+	-fx-background-color: #E2E2E2;
+    -fx-opacity: 0.38;
+    -fx-pref-height: 50.0;
+    -fx-pref-width: 518.0;
+}
+.lblName{
+	-fx-alignment: center;
+    -fx-pref-height: 50.0;
+    -fx-pref-width: 220.0;
+    -fx-text-fill: #416108;
+    -fx-font-family: "FZYaoTi";
+    -fx-font-size: 23.0;
+}
+.lbl{
+	-fx-alignment: center;
+    -fx-pref-height: 50.0;
+    -fx-pref-width: 149.0;
+    -fx-text-fill: #416108;
+    -fx-font-family: "FZYaoTi";
+    -fx-font-size: 23.0;
+}
+.infoGreen{
+	-fx-background-color: #C5E4BA;
+    -fx-opacity: 0.38;
+    -fx-pref-height: 50.0;
+    -fx-pref-width: 518.0;
+}
